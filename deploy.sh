@@ -27,6 +27,11 @@ git commit -m 'deploy'
 git push -f git@github.com:u65b96/angelo.git master:ange
 #git@github.com:u65b96/ange.git
 
-cd -
+cd ../
+ls
+#
+#rm -rf dist
+
+#cd -
 
 # 最后发布的时候执行 bash deploy.sh
