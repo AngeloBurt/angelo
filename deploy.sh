@@ -24,7 +24,7 @@ git commit -m 'deploy'
 #git push -f https://u65b96.github.io/ange
 
 #git push -f git@github.com:u65b96/ange.git
-git push -f git@github.com:u65b96/ange.git master:main
+git push -f git@github.com:u65b96/angelo.git master:ange
 #git@github.com:u65b96/ange.git
 
 cd -
