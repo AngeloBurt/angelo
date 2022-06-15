@@ -8,7 +8,7 @@ module.exports = {
       }
     }
   },
-  base: '/ange/',
+  base: '/angelo/',
   lastUpdated: 'Last Updated',
   themeConfig: {
     navbar: 'auto',
@@ -34,7 +34,7 @@ module.exports = {
           {
             text: 'Node',
             link: '/erp/guide/art1#node-重置镜像源'
-          },          
+          },
         ]
       },
       {
