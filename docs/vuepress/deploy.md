@@ -53,6 +53,7 @@ git push -f git@github.com:u65b96/angelo.git master:ange
 
 ## 根目录下执行脚本
 
+
 ``bash deploy.sh``
 
 出现以下提示说明脚本执行成功
@@ -65,3 +66,10 @@ tips: 这里的截图粘贴会在上传当前目录下,记得挪到public文件�
 ## github 部署使用总结
 
 新建分支存储打包后的文件
+
+## github 上的fork 咋删除
+
+进入settings的options
+
+页面拉到最后, 在Danger Zone直接delete this repository即可。需要输入repo的名字才能确认删除,这一步实际上就是取消fork了。
+

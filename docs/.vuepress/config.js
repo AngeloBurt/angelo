@@ -16,9 +16,10 @@ module.exports = {
       "link", { rel: "icon", href: "/image/favicon.ico" }
     ]
   ],
-  lastUpdated: "Last Updated",
   themeConfig: {
+    // smoothScroll: true,
     logo: "/favicon.ico",
+    lastUpdated: "上次更新",
     navbar: "auto",
     nav: [
       {
@@ -136,5 +137,14 @@ module.exports = {
     "markdown-it-bar": {
       // 提供你的选项
     }
-  }
+  },
+  
+  plugins: ["vuepress-plugin-smooth-scroll"],
+  // plugins: {
+  //   "cursor-effects":
+  //     size: 2,
+  //     shape: "circle",  // 点击形状: 'star', 'star' | 'circle'
+  //     zIndex: 999999999
+  //   },
+  // },
 };
