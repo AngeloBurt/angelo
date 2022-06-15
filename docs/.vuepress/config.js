@@ -9,17 +9,17 @@ module.exports = {
     }
   },
   base: "/angelo/",
+  head: [
+    // 设置 favor.ico，.vuepress/public 下
+    [
+      // "link", { rel: "icon", href: "/favicon.ico" },
+      "link", { rel: "icon", href: "/image/favicon.ico" }
+    ]
+  ],
   lastUpdated: "Last Updated",
   themeConfig: {
     logo: "/favicon.ico",
     navbar: "auto",
-    head: [
-      // 设置 favor.ico，.vuepress/public 下
-      [
-        // "link", { rel: "icon", href: "/favicon.ico" },
-        "link", { rel: "icon", href: "/image/favicon.ico" }
-      ]
-    ],
     nav: [
       {
         text: "主页",
@@ -53,14 +53,9 @@ module.exports = {
           link: "/erp/rab/r01"
         },
           {
-            text: "VuePress",
-            link: "/erp/rab/r02"
+            text: "VP使用经验",
+            link: "/vuepress/"
           },
-          {
-            text: "VP野生文档",
-            link: "https://app.yinxiang.com/shard/s63/nl/37485152/f19a9fe2-cbcf-41d9-8e60-fd0eb461bf8a?title=(1%E6%9D%A1%E6%B6%88%E6%81%AF)%20vuepress%E5%85%A5%E9%97%A8%E8%AF%A6%E8%A7%A3%EF%BC%88%E5%9B%9B%EF%BC%89vuepress%20%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE_%E7%89%9B%E9%AD%94%E7%8E%8Bsq%E7%9A%84%E5%8D%9A%E5%AE%A2-CSDN%E5%8D%9A%E5%AE%A2_vuepress%E9%85%8D%E7%BD%AE"
-          },
-        
         ]
       }
     ],
@@ -88,6 +83,19 @@ module.exports = {
           //   title: '开发注意事项',
           //   path: '/erp/rab/r02'
           // },
+        ]
+      }],
+      "/vuepress/": [{
+        title: "VuePress",
+        collapsable: false,
+        children: [{
+          title: "基础配置",
+          path: "/vuepress/"
+        },
+          {
+            title: "一键部署-githubPages",
+            path: "/vuepress/deploy"
+          },
         ]
       }],
       //   '/foo/': [
