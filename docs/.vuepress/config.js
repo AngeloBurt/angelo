@@ -8,7 +8,7 @@ module.exports = {
       }
     }
   },
-  base: '/angelo/',
+  base: '/ange/',
   lastUpdated: 'Last Updated',
   themeConfig: {
     navbar: 'auto',
