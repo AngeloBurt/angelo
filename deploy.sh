@@ -29,8 +29,7 @@ git push -f git@github.com:u65b96/angelo.git master:ange
 
 cd ../
 ls
-#
-#rm -rf dist
+rm -rf dist
 
 #cd -
 

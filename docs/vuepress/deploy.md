@@ -58,7 +58,9 @@ git push -f git@github.com:u65b96/angelo.git master:ange
 
 出现以下提示说明脚本执行成功
 
-![img.png](/img.png)
+<img :src="$withBase('/img.png')" alt="img.png">
+
+[comment]: <> (![img.png]&#40;/img.png&#41;)
 
 tips: 这里的截图粘贴会在上传当前目录下,记得挪到public文件夹下
 
