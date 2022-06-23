@@ -31,6 +31,6 @@ cd ../
 ls
 rm -rf dist
 
-#cd -
+cd -
 
 # 最后发布的时候执行 bash deploy.sh
