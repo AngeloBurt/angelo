@@ -21,11 +21,11 @@ git commit -m 'deploy'
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:<BranchName>
 # git push -f git@github.com:isunbeam/Blogs.git master:blogs
-#git push -f https://u65b96.github.io/ange
+#git push -f https://AngeloBurt.github.io/ange
 
-#git push -f git@github.com:u65b96/ange.git
-git push -f git@github.com:u65b96/angelo.git master:ange
-#git@github.com:u65b96/ange.git
+#git push -f git@github.com:AngeloBurt/ange.git
+git push -f git@github.com:AngeloBurt/angelo.git master:ange
+#git@github.com:AngeloBurt/ange.git
 
 cd ../
 ls
