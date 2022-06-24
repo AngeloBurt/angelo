@@ -6,7 +6,6 @@ sidebar: true
 |--|--|--|--|
 集成平台|V1.0|2022-6-13|大本版版本迭代,于2022-6-14重做|
 
-[Gitee仓库地址](https://gitee.com/shanghai-dijiang-group/dj_erp_view.git)
 
 
 ---
