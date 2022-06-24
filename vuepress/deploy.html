@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>shell文件使用总结 | 前端文档</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="icon" href="/angelo/image/favicon.ico">
+    <meta name="description" content="前端的一些不完全文档">
+    
+    <link rel="preload" href="/angelo/assets/css/0.styles.677e5c6f.css" as="style"><link rel="preload" href="/angelo/assets/js/app.f1881da9.js" as="script"><link rel="preload" href="/angelo/assets/js/2.b1ad56db.js" as="script"><link rel="preload" href="/angelo/assets/js/24.2bb045c0.js" as="script"><link rel="prefetch" href="/angelo/assets/js/10.3b6bb708.js"><link rel="prefetch" href="/angelo/assets/js/11.8f66879b.js"><link rel="prefetch" href="/angelo/assets/js/12.dfd22077.js"><link rel="prefetch" href="/angelo/assets/js/13.f9121b9d.js"><link rel="prefetch" href="/angelo/assets/js/14.667ff5c5.js"><link rel="prefetch" href="/angelo/assets/js/15.6d51ccef.js"><link rel="prefetch" href="/angelo/assets/js/16.bc386cb8.js"><link rel="prefetch" href="/angelo/assets/js/17.0ac9b6b1.js"><link rel="prefetch" href="/angelo/assets/js/18.21f478d0.js"><link rel="prefetch" href="/angelo/assets/js/19.cff45bcb.js"><link rel="prefetch" href="/angelo/assets/js/20.5d31f903.js"><link rel="prefetch" href="/angelo/assets/js/21.322dcbd8.js"><link rel="prefetch" href="/angelo/assets/js/22.e5d7af4f.js"><link rel="prefetch" href="/angelo/assets/js/23.761cc572.js"><link rel="prefetch" href="/angelo/assets/js/3.b532576b.js"><link rel="prefetch" href="/angelo/assets/js/4.691a7fa9.js"><link rel="prefetch" href="/angelo/assets/js/5.7712d18b.js"><link rel="prefetch" href="/angelo/assets/js/6.45b8fe9d.js"><link rel="prefetch" href="/angelo/assets/js/7.70e4f20a.js"><link rel="prefetch" href="/angelo/assets/js/8.45a2a1e0.js"><link rel="prefetch" href="/angelo/assets/js/9.416af80e.js">
+    <link rel="stylesheet" href="/angelo/assets/css/0.styles.677e5c6f.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/angelo/" class="home-link router-link-active"><img src="/angelo/favicon.ico" alt="前端文档" class="logo"> <span class="site-name can-hide">前端文档</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/angelo/" class="nav-link">
+  主页
+</a></div><div class="nav-item"><a href="/angelo/erp/" class="nav-link">
+  ERP
+</a></div><div class="nav-item"><a href="/angelo/h5/" class="nav-link">
+  H5
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="常用工具" class="dropdown-title"><span class="title">常用工具</span> <span class="arrow down"></span></button> <button type="button" aria-label="常用工具" class="mobile-dropdown-title"><span class="title">常用工具</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/angelo/erp/guide/art1.html#nvm安装node" class="nav-link">
+  Node+Yarn
+</a></li><li class="dropdown-item"><!----> <a href="/angelo/erp/guide/art1.html#node-重置镜像源" class="nav-link">
+  Node
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="文档" class="dropdown-title"><span class="title">文档</span> <span class="arrow down"></span></button> <button type="button" aria-label="文档" class="mobile-dropdown-title"><span class="title">文档</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/angelo/erp/rab/r01.html" class="nav-link">
+  API
+</a></li><li class="dropdown-item"><!----> <a href="/angelo/vuepress/" class="nav-link router-link-active">
+  VP使用经验
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/angelo/" class="nav-link">
+  主页
+</a></div><div class="nav-item"><a href="/angelo/erp/" class="nav-link">
+  ERP
+</a></div><div class="nav-item"><a href="/angelo/h5/" class="nav-link">
+  H5
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="常用工具" class="dropdown-title"><span class="title">常用工具</span> <span class="arrow down"></span></button> <button type="button" aria-label="常用工具" class="mobile-dropdown-title"><span class="title">常用工具</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/angelo/erp/guide/art1.html#nvm安装node" class="nav-link">
+  Node+Yarn
+</a></li><li class="dropdown-item"><!----> <a href="/angelo/erp/guide/art1.html#node-重置镜像源" class="nav-link">
+  Node
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="文档" class="dropdown-title"><span class="title">文档</span> <span class="arrow down"></span></button> <button type="button" aria-label="文档" class="mobile-dropdown-title"><span class="title">文档</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/angelo/erp/rab/r01.html" class="nav-link">
+  API
+</a></li><li class="dropdown-item"><!----> <a href="/angelo/vuepress/" class="nav-link router-link-active">
+  VP使用经验
+</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>VuePress</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/angelo/vuepress/" aria-current="page" class="sidebar-link">基础配置</a></li><li><a href="/angelo/vuepress/deploy.html" aria-current="page" class="active sidebar-link">一键部署-githubPages</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/angelo/vuepress/deploy.html#shell文件使用总结" class="sidebar-link">shell文件使用总结</a></li><li class="sidebar-sub-header"><a href="/angelo/vuepress/deploy.html#创建根目录下脚本文件" class="sidebar-link">创建根目录下脚本文件</a></li><li class="sidebar-sub-header"><a href="/angelo/vuepress/deploy.html#根目录下执行脚本" class="sidebar-link">根目录下执行脚本</a></li><li class="sidebar-sub-header"><a href="/angelo/vuepress/deploy.html#github-部署使用总结" class="sidebar-link">github 部署使用总结</a></li><li class="sidebar-sub-header"><a href="/angelo/vuepress/deploy.html#github-上的fork-咋删除" class="sidebar-link">github 上的fork 咋删除</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h2 id="shell文件使用总结">shell文件使用总结</h2> <div class="custom-block tip"><p class="custom-block-title">TIP</p> <p>bash 删除文件夹</p></div> <p><code>rm -rf dist</code></p> <div class="custom-block warning"><p class="custom-block-title">WARNING</p> <ol><li>直接在浏览器上复制的脚本文件,粘贴到编辑器上会有nbsp字符的提示记得替换为''</li> <li>使用使用git bash 提交代码时,最好使用密钥提交, 之前用用户名和密码一直提交不成功, 不是超时就是10054</li></ol></div> <h2 id="创建根目录下脚本文件">创建根目录下脚本文件</h2> <p>可以使用 touch deploy.sh</p> <p>也可以使用编辑新建deploy.sh 文件</p> <p>粘贴以下代码(网上找的脚本=_=!)</p> <div class="language-shell line-numbers-mode"><pre class="language-shell"><code><span class="token shebang important">#!/usr/bin/env sh</span>
+
+<span class="token comment"># 确保脚本抛出遇到的错误</span>
+<span class="token builtin class-name">set</span> -e
+<span class="token comment"># 生成静态文件</span>
+<span class="token function">yarn</span> docs:build
+
+<span class="token comment"># 进入生成的文件夹，这里是默认的路径，可以自定义</span>
+<span class="token builtin class-name">cd</span> ./docs/.vuepress/dist
+
+<span class="token comment"># 如果是发布到自定义域名</span>
+<span class="token comment"># echo 'www.isunbeam.cn' &gt; CNAME</span>
+
+<span class="token function">git</span> init
+<span class="token function">git</span> <span class="token function">add</span> -A
+<span class="token function">git</span> commit -m <span class="token string">'deploy'</span>
+
+<span class="token comment"># 如果发布到 https://&lt;USERNAME&gt;.github.io/&lt;REPO&gt;</span>
+<span class="token comment"># git push -f git@github.com:&lt;USERNAME&gt;/&lt;REPO&gt;.git master:&lt;BranchName&gt;</span>
+<span class="token comment">#git push -f git@github.com:u65b96/ange.git</span>
+<span class="token function">git</span> push -f git@github.com:u65b96/angelo.git master:ange
+
+<span class="token comment"># 删除dist(选用)</span>
+<span class="token comment"># cd ../</span>
+<span class="token comment"># rm -rf dist</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br></div></div><h2 id="根目录下执行脚本">根目录下执行脚本</h2> <p><code>bash deploy.sh</code></p> <p>出现以下提示说明脚本执行成功</p> <img src="/angelo/img.png" alt="img.png"> <p>tips: 这里的截图粘贴会在上传当前目录下,记得挪到public文件夹下</p> <h2 id="github-部署使用总结">github 部署使用总结</h2> <p>新建分支存储打包后的文件</p> <h2 id="github-上的fork-咋删除">github 上的fork 咋删除</h2> <p>进入settings的options</p> <p>页面拉到最后, 在Danger Zone直接delete this repository即可。需要输入repo的名字才能确认删除,这一步实际上就是取消fork了。</p></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">上次更新:</span> <span class="time">6/16/2022, 9:50:20 AM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/angelo/vuepress/" class="prev router-link-active">
+        基础配置
+      </a></span> <!----></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/angelo/assets/js/app.f1881da9.js" defer></script><script src="/angelo/assets/js/2.b1ad56db.js" defer></script><script src="/angelo/assets/js/24.2bb045c0.js" defer></script>
+  </body>
+</html>
